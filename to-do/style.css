@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgrey;
+    width: 100%;
+}
+
+.header {
+    background-color: black;
+    margin: 20px 20px;
+    height: 200px;
+}
+
+.header p {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.header h3 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+.form-division {
+    margin-left: 25%;
+    margin-top: 4%;
+}
+
+.form-division form input {
+    width: 400px;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 10px;
+}
+
+.btn {
+    position: relative;
+    display: inline;
+    top: 7px;
+    left: -5px;
+    background-color:royalblue;
+}
+
+.btn {
+    width: 80px;
+    height: 55px;
+}
+
+.list{
+    margin-left:25%;
+    width: 465px;
+    background-color:white;
+    margin-top: 10px;
+    padding: 1px 10px;
+
+}
+
+.add{
+    height: 50px;
+    margin-bottom: 2px;;
+    background-color: lightgreen;
+    padding-left: 10px;
+}
+
+.add input{
+    position: relative;
+    top: 5px;
+    width: 20px;
+    height: 30px;
+    margin-top: 5px;
+
+}
+
+.add p{
+    display: inline-block;
+    max-width:75%;
+    font-size: 1.5em;
+    width: 465px;
+    margin-left: 10px;    
+    padding-left:5px;;
+}
+
+.add .delete{
+    width: 50px;
+    height: 45px;
+}
+
+.alert{
+    background-color: brown;
+    max-width:39%;
+    margin-left:25%;
+    height:50px;
+    padding-top: 20px;
+    margin-top: 10px;
+    transition: all 2s;
+}
+
+.alert p{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    color: white;
+}
+
+.alert-appear{
+    display: none;
+}
+
+.empty{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    color: RED;
+}
