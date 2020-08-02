@@ -1,0 +1,191 @@
+html{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: rgb(140, 121, 224);
+}
+
+.heading{
+	font-size: 2em;
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+}
+
+form{
+	display: block;
+	position: relative;
+	height: 5rem;
+	padding-left: 25rem;
+}
+
+input{
+	font-size: 1.8em;
+	width: 30rem;
+	height: 2rem;
+	font-weight: bolder;
+}
+
+input[placeholder]{
+	font-size:0.9em;
+	padding-left: 20px;
+}
+
+form button{
+	width: 7rem;
+	height: 2.5rem;
+
+}
+
+
+.spinner{
+	margin-top: -100px;
+	padding-left: 300px;
+}
+
+.detail_view{
+	display: none;
+	position: relative;
+	background-color: rgb(96, 109, 135);
+	margin: 10px 10px;
+	
+	height: 30rem;
+}
+
+.detail_view .left-side{
+	position: absolute;
+	top: 10rem;
+
+}
+
+.detail_view .left-side table{
+	border: 1px solid black;
+	list-style: none;
+	padding-left:1rem;
+	margin-left: 1rem;
+	background-color: rgb(99, 91, 130);
+	border-radius: 10px;
+	font-size: 1.5em;
+	border: 1px solid white;
+	padding:1rem 1rem;
+}
+
+.detail_view .left-side table tr{
+	height: 1rem;
+	border: 1px solid white;
+}
+
+.detail_view .left-side table tr td{
+	padding-right: 1rem;
+
+}
+
+.loc{
+	position: absolute;
+	right: 38rem;
+	top: 2rem;
+	font-size: 2em;
+	text-align: center;
+	color:white;
+}
+
+.description{
+	position:absolute;
+	top: 8rem;
+	right:32rem;
+	text-align: center;
+}
+
+.description h2{
+	margin-left:-20rem;
+	padding-top: 1rem;
+	font-size: 2em;
+	text-decoration-line: underline;
+}
+
+.title{
+	margin-left: -18rem;
+	color: white;
+	margin-top:1rem;
+}
+
+.description h3{
+	font-size: 2em;
+	text-align: center;
+}
+
+.right-side{
+	position:absolute;
+	right: 5rem;
+	top: 8rem;
+}
+
+
+.cloud{
+	display: block;
+	margin-top:-6rem;
+	margin-left: -2.5rem;
+	width: 10rem;
+	height: 5rem;
+	margin-bottom: 1rem;
+}
+
+.cl {
+	font-size: 1.5rem;
+	color: white;
+
+}
+
+.speed{
+	display: block;
+	margin-top:3rem;
+	margin-left: -1.2rem;
+	height:5rem;
+	margin-bottom: 1rem;
+}
+
+.sp{
+	font-size: 1.5em;
+	color:white;
+}
+
+
+.main{
+	position: absolute;
+	padding-left: 2rem;
+}
+
+.main h3{
+	top: 5rem;
+
+
+}
+
+.main ul{
+	list-style: none;
+	margin-left: -2rem;
+	font-size: 1.2rem;
+}
+
+.longitude span{
+	color:white;
+}
+
+.latitude span{
+	color:white;
+}
+
+.alert{
+	display: none;
+	font-size: 1.5rem;
+	background-color: red;
+	text-align: center;
+	padding:1rem 1rem;
+	color: white;
+	max-width: 100%;	
+	width: 35rem;
+	margin-left: 25rem;
+	margin-bottom: 2rem;
+	transition: all 2s;
+}

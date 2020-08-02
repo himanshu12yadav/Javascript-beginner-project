@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Weather API</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+<div class="container">
+	<h3 class="heading"> WEATHER API </h3>
+	<div class="form">
+		<form action="">
+			<input type="text" placeholder="LOCATION">
+			<button type="submit" class="btn"> Search </button> 
+		</form>
+	<div class="alert"> Location is Incorrect </div>
+	</div>
+		
+	<div class="weather"> 
+			<svg class="spinner">
+				<img src="Spinner.svg" width="50px" height="50px" />
+			</svg>
+
+			<div class="detail_view">
+				<h3 class="loc"></h3>
+				<div class="main"> 
+					<h3>TimeZone: <span style="color:white;"></span></h3>
+					<ul>
+						<li class="longitude">Longitude: <span></span></li>
+						<li class="latitude">Latitude: <span></span></li>
+					</ul>
+				</div>
+				<div class="left-side">
+						<table class="detail">
+							<tr>
+								<td>Humidity</td>
+								<td class="humidity" style="color:white;"></td>
+							</tr>
+
+							<tr>
+								<td>Pressure</td>
+								<td class="pressure" style="color:white;"></td>
+							</tr>
+
+							<tr>
+								<td>Temperature</td>
+								<td class="Temp" style="color:white;"></td>
+							</tr>
+
+							<tr>
+								<td>Maxium</td>
+								<td class="max" style="color:white;"></td>
+							</tr>
+
+
+							<tr>
+								<td>Minimum</td>
+								<td class="min" style="color:white;"></td>
+							</tr>
+						</table>
+				</div>
+				
+				<div class="description">
+					<h2> Description </h2>
+					<h3 class="title"></h3>
+				</div>
+
+				<div class="right-side">
+					<img class="cloud" src="cloud.png" width="100px" height="60px" alt=""><span class="cl"></span>
+					<img class="speed" src="speed.png" alt=""><span class="sp"></span>
+				</div>
+			</div>
+		</div>		
+</div>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
