@@ -1,0 +1,19 @@
+body{
+	background-color: grey;
+
+}
+
+.digital{
+	display: flex;
+	background-color: black;
+	justify-content: center;
+	align-items: center;
+}
+
+.hour h3, .minute h3, .second h3, .period h3 {
+	color: white;
+	font-size: 2em;
+	color: lightblue;
+	font-weight: lighter;
+	font-style:sans-serif;
+}
