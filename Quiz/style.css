@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: coral;
+}
+
+.container {
+    margin: 50px 200px;
+    background-color: chocolate;
+    width: 700px;
+    height: 600px;
+}
+
+.container h3 {
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+.play {
+    width: 100px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-left: 19rem;
+    margin-top: 2rem;
+}
+
+.question_set {
+    margin: 22px 12px;
+    border: 1.5px solid wheat;
+    max-width: 100%;
+    height: 60%;
+    display: none;
+}
+
+.question_set p {
+    font-size: 2em;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.question_set .options {
+    border: 1px solid white;
+    margin: 20px 20px;
+}
+
+.question_set .options {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.question_set .options form input {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 15px;
+
+}
+
+.next {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-left: 32rem;
+    margin-top: -10px;
+    top: 462px;
+}
+
+.result{
+    display: none;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.result h3{
+    color:white;
+    font-size: 1.5em;
+}
+
+.result span{
+    color: black;
+    font-size: 1.2em;
+}
